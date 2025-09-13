@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jayachitra Portfolio</title>
+  <title>Sabira banu K Portfolio</title>
   <style>
     * {
       margin: 0;
@@ -43,7 +43,7 @@
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .tabs button {
-      padding: 0.8rem 1.5rem;
+      padding: 1rem 1.5rem;
       background: #ffffff;
       border: 2px solid #2a5298;
       border-radius: 8px;
@@ -197,45 +197,41 @@
 </head>
 <body>
 <header style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding: 2rem">
-  <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-  <img src="C:\Users\ADMIN\Pictures\Rose.jpg" alt="Profile Picture" class="profile-picture" id="profileImage" style="margin: 0 1rem 0 0; align-self: flex-start;">
+  <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode </button>
+  <img src="aarthi.jpeg" alt="Profile Picture" class="profile-picture" id="profileImage" style="margin: 0 1rem 0 0; align-self: flex-start;">
   <div style="text-align: left;">
-    <h1>L JAYACHITRA</h1>
+    <h1> Sabira Banu k
+    </h1>
     
   </div>
-  <p> ASSISTANT PROFESSOR | DEPARTMENT OF BCA </p>
+  <p> 
+    STUDENT | DEPARTMENT OF BSC CS </p>
   <input type="file" id="fileInput" accept="image/*" style="display:none">
-  <button onclick="showModal()">Change Profile</button>
+  <button onclick="showModal()"></button>
 </header>
 
 <div class="tabs">
   <button class="tab-btn active" data-tab="about">About</button>
-  <button class="tab-btn" data-tab="certificates">Certificates</button>
-  <button class="tab-btn" data-tab="experience">Experience</button>
   <button class="tab-btn" data-tab="education">Education</button>
   <button class="tab-btn" data-tab="skills">Skills</button>
   <button class="tab-btn" data-tab="projects">Projects</button>
   <button class="tab-btn" data-tab="resume">Resume</button>
-  <button class="tab-btn" data-tab="contact">Contact</button>
 </div>
 
 <section id="about" class="active">
   <h2>About Me</h2>
-  <p>I'm a <b> Assistant Professor </b> with 8 Years Experience, Currently working in a Arts and science college. Passionate to be Doctorate in Computer Application. </p>
+  <p>I'm a <b> Student </b>Studying Bachelors in computer science in sri balaji Arts and science college. Passionate and excited to learn new things related Computer Application. </p>
 </section>
 
 <section id="education">
   <h2>Education</h2>
-  <p> Completed B.Sc., M.C.A., M.Phil., - Pursuing P.hd</p>
+  <p> Pursuing BSC CS</p>
 </section>
 
 <section id="skills">
   <h2>Skills</h2>
   <ul>
-    <li>Internet of Things</li>
-    <li>Cloud Computing</li>
     <li>Python</li>
-    <li>IBM Cloud</li>
     <li>JAVA</li>
     <li>C & C++</li>
     <li>JavaScript</li>
@@ -248,7 +244,6 @@
   <h2>Projects</h2>
   <ul>
     <li><a href="#">AI-Based Alternator Control System</a></li>
-    <li><a href="https://github.com/techtrainer20/blockchain.git" target="_blank">Cloud Security with IBM</a></li>
     <li><a href="#">IBM Chatbot</a></li>
     <li><a href="#">Generic Chatbot</a></li>
   </ul>
@@ -256,58 +251,12 @@
 
 <section id="resume">
   <h2>Resume</h2>
-  <a href="https://docs.google.com/document/d/1XCO6bviIbyN5QkQwY-IJ7ChDfTXxFGwP1nb-LPMrb7c/edit?usp=drive_link" target="_blank" class="download-button">Download CV</a>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:vignesh@example.com">Jayachitra@example.com</a></p>
-  <p>Phone: +91-9962339562</p>
-  <p>Location: Chennai, India</p>
-  <div style="margin-top: 1rem;">
-    <a href="https://linkedin.com/in/vignesh" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/vignesh" target="_blank">GitHub</a> |
-    <a href="https://twitter.com/vignesh" target="_blank">Twitter</a> |
-    <a href="https://instagram.com/vignesh" target="_blank">Instagram</a>
-  </div>
-</section>
-
-<section id="certificates">
-  <h2>Certificates</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-    <div style="text-align: center;">
-      <a href="https://drive.google.com/file/d/1g2Sqa_tn-AuHRQVFXY4MzPAa25khgvg7/view?usp=drive_link" target="_blank">
-        <img src="https://drive.google.com/file/d/1n5qMOUdBwr1DyHwCiFehxG8SDwOC-t81/view?usp=drive_link style=" max-width: 200px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p>ICT Academy Course Certificate</p>
-    </div>
-    <div style="text-align: center;">
-      <a href="https://drive.google.com/file/d/17zMZh3nrQ3_IDVkNS_rJOpKuJtxnlNhr/view?usp=drive_link" target="_blank">
-        <img src="certificate2.jpg" alt="ICT Academy Course Certificate" style="max-width: 200px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-      </a>
-</section>
-
-<section id="experience">
-  <h2>Experience</h2>
-  <ul>
-    <li><b>Assistant Professor</b> – Sri Balaji Arts and Science College (2017–Present)<br>Monitored, detected, and mitigated network threats using SIEM tools.</li>
-    <li><b>Project Guide</b> Final year Students (From 2022)<br>Guided above 35 Students to Submit their Mini-Projects in Computer Application.</li>
-    <li><b>Intern – IBM Cloud Division</b> (2018)<br>Worked on automation scripts and cloud deployment prototypes.</li>
-  </ul>
+  <a href="aarthi.resume.png" target="_blank" class="download-button">Download CV</a>
 </section>
 
 <footer>
-  <p>&copy; 2025 Jayachitra L. All rights reserved.</p>
+  <p>&copy; 2025 Sabira Banu K All rights reserved.</p>
 </footer>
-
-<div class="modal" id="passwordModal">
-  <div class="modal-content">
-    <h3>Enter Password</h3>
-    <input type="password" id="passwordInput" placeholder="Password">
-    <div class="error" id="errorMsg"></div>
-    <button onclick="checkPassword()">Submit</button>
-  </div>
-</div>
 
 <script>
   const fileInput = document.getElementById('fileInput');
@@ -373,4 +322,4 @@
   }
 </script>
 </body>
-</html>
+    </html>
